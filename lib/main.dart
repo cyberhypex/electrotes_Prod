@@ -1,6 +1,7 @@
+import 'package:electrotes/Screens/homeSems.dart';
 import 'package:flutter/material.dart';
 
-import 'Screens/splashScreen.dart';
+//import 'Screens/splashScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.white54),
         useMaterial3: true,
       ),
-      home: SplashScreen(),
+      home: HomeSems(),
     );
   }
 }
