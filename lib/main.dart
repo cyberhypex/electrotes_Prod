@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Electrotes',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.white54),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
         useMaterial3: true,
       ),
       home: HomeSems(),
