@@ -1,11 +1,11 @@
 import 'dart:ui';
 
-import 'package:electrotes/Screens/semsScreen/eightSem.dart';
-import 'package:electrotes/Screens/semsScreen/fifthSem.dart';
-import 'package:electrotes/Screens/semsScreen/fourthSem.dart';
-import 'package:electrotes/Screens/semsScreen/seventhSem.dart';
-import 'package:electrotes/Screens/semsScreen/sixthSem.dart';
-import 'package:electrotes/Screens/semsScreen/thirdSem.dart';
+import 'package:electrotes/8th%20sem/eightSem.dart';
+import 'package:electrotes/5th%20Sem/fifthSem.dart';
+import 'package:electrotes/4th%20Sem/fourthSem.dart';
+import 'package:electrotes/7th%20Sem/seventhSem.dart';
+import 'package:electrotes/6th%20Sem/sixthSem.dart';
+import 'package:electrotes/3rd%20Sem/thirdSem.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

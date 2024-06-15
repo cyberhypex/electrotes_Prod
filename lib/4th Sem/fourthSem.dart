@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 
 import 'package:google_fonts/google_fonts.dart';
 
-class thirdSemester extends StatefulWidget {
-  const thirdSemester({super.key});
+class fourthSemester extends StatefulWidget {
+  const fourthSemester({super.key});
 
   @override
-  State<thirdSemester> createState() => _thirdSemesterState();
+  State<fourthSemester> createState() => _fourthSemesterState();
 }
 
-class _thirdSemesterState extends State<thirdSemester> {
+class _fourthSemesterState extends State<fourthSemester> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -42,8 +42,6 @@ class _thirdSemesterState extends State<thirdSemester> {
               icon: const Icon(Icons.home_outlined))
         ],
       ),
-    //todo:Add listview
-    
     );
   }
 }
