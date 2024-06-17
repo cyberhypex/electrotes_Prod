@@ -41,8 +41,7 @@ class _thirdSemesterState extends State<thirdSemester> {
                 icon: const Icon(Icons.home_outlined))
           ],
         ),
-        //todo:Add listview
-        //todo:Add ListView & Make Subjects page
+       
 
         body: Container(
           height: double.infinity,
