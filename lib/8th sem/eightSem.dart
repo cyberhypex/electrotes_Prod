@@ -43,6 +43,21 @@ class _eightSemesterState extends State<eightSemester> {
       ),
       //todo:Add listview
       //todo:Add ListView & Make Subjects page
+        body: Container(
+            height: double.infinity,
+            width: double.infinity,
+            child: Center(
+              child: Text(
+                "Coming Soon!!",
+                style: GoogleFonts.acme(
+                  textStyle: const TextStyle(
+                      color: Colors.black87,
+                      fontSize: 30,
+                      fontWeight: FontWeight.w300),
+                ),
+              ),
+            ))
+        //todo:A
     );
   }
 }
