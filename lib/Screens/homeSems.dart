@@ -33,6 +33,12 @@ class _HomeSemsState extends State<HomeSems> {
                 fontWeight: FontWeight.bold),
           ),
         ),
+        actions: [
+          IconButton(
+              iconSize: MediaQuery.sizeOf(context).width * 0.1,
+              onPressed: () {},
+              icon: const Icon(Icons.admin_panel_settings))
+        ],
       ),
       body: Container(
           height: double.infinity,
