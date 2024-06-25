@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "475271202524",
+    "project_id": "electrotes-aa2fd",
+    "storage_bucket": "electrotes-aa2fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475271202524:android:c3913e8b873c0bac329619",
+        "android_client_info": {
+          "package_name": "com.example.electrotes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhs0qyRQGghb2st1nFIg-X6KXri_nXvbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
