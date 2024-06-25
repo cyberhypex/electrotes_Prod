@@ -6,6 +6,7 @@ import 'package:electrotes/4th%20Sem/fourthSem.dart';
 import 'package:electrotes/7th%20Sem/seventhSem.dart';
 import 'package:electrotes/6th%20Sem/sixthSem.dart';
 import 'package:electrotes/3rd%20Sem/thirdSem.dart';
+import 'package:electrotes/Screens/adminPage.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -36,7 +37,10 @@ class _HomeSemsState extends State<HomeSems> {
         actions: [
           IconButton(
               iconSize: MediaQuery.sizeOf(context).width * 0.1,
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => adminPage()));
+              },
               icon: const Icon(Icons.admin_panel_settings))
         ],
       ),
