@@ -43,6 +43,8 @@ dependencies:
   firebase_storage: ^12.0.1
   easy_pdf_viewer: ^1.0.8
   firebase_auth: ^5.1.0
+  flutter_form_builder: ^9.2.1
+  form_builder_validators: ^9.1.0
 
 dev_dependencies:
   flutter_test:

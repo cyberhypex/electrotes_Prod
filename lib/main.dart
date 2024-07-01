@@ -7,11 +7,10 @@ import 'firebase_options.dart';
 
 //import 'Screens/splashScreen.dart';
 
-Future<void> main() async {
+Future<void>  main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-);
+  await Firebase.initializeApp();
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
