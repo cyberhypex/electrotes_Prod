@@ -1,4 +1,5 @@
 import 'package:electrotes/Screens/homeSems.dart';
+import 'package:electrotes/widgets/subsButton.dart';
 import 'package:flutter/material.dart';
 
 import 'package:google_fonts/google_fonts.dart';
@@ -48,26 +49,12 @@ class _thirdSemesterState extends State<thirdSemester> {
           width: double.maxFinite,
           child: SafeArea(
             child: ListView(children: [
-              Container(
-                  height: MediaQuery.sizeOf(context).height * 0.1,
-                  //  color: Colors.black45,
-                  decoration: BoxDecoration(
-                    color: Color.fromRGBO(21, 30, 39, 200),
-                    shape: BoxShape.rectangle,
-                  ),
-                  child: Center(
-                      child: TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      "Signals & Systems",
-                      style: GoogleFonts.acme(
-                        textStyle: const TextStyle(
-                            color: Colors.black87,
-                            fontSize: 30,
-                            fontWeight: FontWeight.w300),
-                      ),
-                    ),
-                  ))),
+              subsButton("Signals & Systems", () { 
+                Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => thirdSemester()));
+              }, Color.fromRGBO(21, 30, 39, 200)),
               const SizedBox(
                 height: 20,
               ),
