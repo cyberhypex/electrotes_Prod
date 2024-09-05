@@ -97,6 +97,17 @@ class _HomeSemsState extends State<HomeSems> {
                 const SizedBox(
                   height: 20,
                 ),
+                 const SizedBox(
+                  height: 20,
+                ),
+                Center(
+                  child: Text("Developed By Anshuman",
+                      style: GoogleFonts.acme(
+                          textStyle: const TextStyle(
+                              color: Colors.black87,
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold))),
+                )
               ],
             ),
           )),
