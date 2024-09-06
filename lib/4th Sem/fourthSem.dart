@@ -2,6 +2,7 @@ import 'package:electrotes/Screens/homeSems.dart';
 import 'package:flutter/material.dart';
 
 import 'package:google_fonts/google_fonts.dart';
+import 'package:electrotes/widgets/subsButton.dart';
 
 class fourthSemester extends StatefulWidget {
   const fourthSemester({super.key});
@@ -46,118 +47,38 @@ class _fourthSemesterState extends State<fourthSemester> {
           width: double.maxFinite,
           child: SafeArea(
             child: ListView(children: [
-              Container(
-                  height: MediaQuery.sizeOf(context).height * 0.1,
-                  //  color: Colors.black45,
-                  decoration: BoxDecoration(
-                    color: Color.fromRGBO(21, 30, 39, 200),
-                    shape: BoxShape.rectangle,
-                  ),
-                  child: Center(
-                      child: TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      "LARP",
-                      style: GoogleFonts.acme(
-                        textStyle: const TextStyle(
-                            color: Colors.black87,
-                            fontSize: 30,
-                            fontWeight: FontWeight.w300),
-                      ),
-                    ),
-                  ))),
+              subsButton("LARP", () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => fourthSemester()));
+              }, Color.fromRGBO(21, 30, 39, 200)),
               const SizedBox(
                 height: 20,
               ),
-              Container(
-                  height: MediaQuery.sizeOf(context).height * 0.1,
-                  //  color: Colors.black45,
-                  decoration: BoxDecoration(
-                    color: Color.fromRGBO(21, 30, 39, 200),
-                    shape: BoxShape.rectangle,
-                  ),
-                  child: Center(
-                      child: TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      "Analog Circuits",
-                      style: GoogleFonts.acme(
-                        textStyle: const TextStyle(
-                            color: Colors.black87,
-                            fontSize: 30,
-                            fontWeight: FontWeight.w300),
-                      ),
-                    ),
-                  ))),
-              const SizedBox(
-                height: 25,
-              ),
-              Container(
-                  height: MediaQuery.sizeOf(context).height * 0.1,
-                  //  color: Colors.black45,
-                  decoration: BoxDecoration(
-                    color: Color.fromRGBO(21, 30, 39, 200),
-                    shape: BoxShape.rectangle,
-                  ),
-                  child: Center(
-                      child: TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      "Analog Communication",
-                      style: GoogleFonts.acme(
-                        textStyle: const TextStyle(
-                            color: Colors.black87,
-                            fontSize: 30,
-                            fontWeight: FontWeight.w300),
-                      ),
-                    ),
-                  ))),
+              subsButton("Analog Ckt", () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => fourthSemester()));
+              }, Color.fromRGBO(21, 30, 39, 200)),
               const SizedBox(
                 height: 20,
               ),
-              Container(
-                  height: MediaQuery.sizeOf(context).height * 0.1,
-                  //  color: Colors.black45,
-                  decoration: BoxDecoration(
-                    color: Color.fromRGBO(21, 30, 39, 200),
-                    shape: BoxShape.rectangle,
-                  ),
-                  child: Center(
-                      child: TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      "Instrumentation",
-                      style: GoogleFonts.acme(
-                        textStyle: const TextStyle(
-                            color: Colors.black87,
-                            fontSize: 30,
-                            fontWeight: FontWeight.w300),
-                      ),
-                    ),
-                  ))),
+              subsButton("Analog Comm.", () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => fourthSemester()));
+              }, Color.fromRGBO(21, 30, 39, 200)),
               const SizedBox(
                 height: 20,
               ),
-              Container(
-                  height: MediaQuery.sizeOf(context).height * 0.1,
-                  //  color: Colors.black45,
-                  decoration: BoxDecoration(
-                    color: Color.fromRGBO(21, 30, 39, 200),
-                    shape: BoxShape.rectangle,
-                  ),
-                  child: Center(
-                      child: TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      "EEM",
-                      style: GoogleFonts.acme(
-                        textStyle: const TextStyle(
-                            color: Colors.black87,
-                            fontSize: 30,
-                            fontWeight: FontWeight.w300),
-                      ),
-                    ),
-                  ))),
+              subsButton("Instrumentation", () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => fourthSemester()));
+              }, Color.fromRGBO(21, 30, 39, 200)),
+              const SizedBox(
+                height: 20,
+              ),
+              subsButton("EEM", () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => fourthSemester()));
+              }, Color.fromRGBO(21, 30, 39, 200)),
               const SizedBox(
                 height: 20,
               ),

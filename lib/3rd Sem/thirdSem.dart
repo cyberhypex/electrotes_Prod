@@ -42,111 +42,43 @@ class _thirdSemesterState extends State<thirdSemester> {
                 icon: const Icon(Icons.home_outlined))
           ],
         ),
-       
-
         body: Container(
           height: double.infinity,
           width: double.maxFinite,
           child: SafeArea(
             child: ListView(children: [
-              subsButton("Signals & Systems", () { 
-                Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => thirdSemester()));
+              subsButton("Signals & Systems", () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => thirdSemester()));
               }, Color.fromRGBO(21, 30, 39, 200)),
               const SizedBox(
                 height: 20,
               ),
-              Container(
-                  height: MediaQuery.sizeOf(context).height * 0.1,
-                  //  color: Colors.black45,
-                  decoration: BoxDecoration(
-                    color: Color.fromRGBO(21, 30, 39, 200),
-                    shape: BoxShape.rectangle,
-                  ),
-                  child: Center(
-                      child: TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      "Semiconductor Devices",
-                      style: GoogleFonts.acme(
-                        textStyle: const TextStyle(
-                            color: Colors.black87,
-                            fontSize: 30,
-                            fontWeight: FontWeight.w300),
-                      ),
-                    ),
-                  ))),
-              const SizedBox(
-                height: 25,
-              ),
-              Container(
-                  height: MediaQuery.sizeOf(context).height * 0.1,
-                  //  color: Colors.black45,
-                  decoration: BoxDecoration(
-                    color: Color.fromRGBO(21, 30, 39, 200),
-                    shape: BoxShape.rectangle,
-                  ),
-                  child: Center(
-                      child: TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      "Network theory",
-                      style: GoogleFonts.acme(
-                        textStyle: const TextStyle(
-                            color: Colors.black87,
-                            fontSize: 30,
-                            fontWeight: FontWeight.w300),
-                      ),
-                    ),
-                  ))),
+              subsButton("SDC", () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => thirdSemester()));
+              }, Color.fromRGBO(21, 30, 39, 200)),
               const SizedBox(
                 height: 20,
               ),
-              Container(
-                  height: MediaQuery.sizeOf(context).height * 0.1,
-                  //  color: Colors.black45,
-                  decoration: BoxDecoration(
-                    color: Color.fromRGBO(21, 30, 39, 200),
-                    shape: BoxShape.rectangle,
-                  ),
-                  child: Center(
-                      child: TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      "Digital Circuits",
-                      style: GoogleFonts.acme(
-                        textStyle: const TextStyle(
-                            color: Colors.black87,
-                            fontSize: 30,
-                            fontWeight: FontWeight.w300),
-                      ),
-                    ),
-                  ))),
+              subsButton("Network Theory", () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => thirdSemester()));
+              }, Color.fromRGBO(21, 30, 39, 200)),
               const SizedBox(
                 height: 20,
               ),
-              Container(
-                  height: MediaQuery.sizeOf(context).height * 0.1,
-                  //  color: Colors.black45,
-                  decoration: BoxDecoration(
-                    color: Color.fromRGBO(21, 30, 39, 200),
-                    shape: BoxShape.rectangle,
-                  ),
-                  child: Center(
-                      child: TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      "Maths-3",
-                      style: GoogleFonts.acme(
-                        textStyle: const TextStyle(
-                            color: Colors.black87,
-                            fontSize: 30,
-                            fontWeight: FontWeight.w300),
-                      ),
-                    ),
-                  ))),
+              subsButton("Digital Circuits", () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => thirdSemester()));
+              }, Color.fromRGBO(21, 30, 39, 200)),
+              const SizedBox(
+                height: 20,
+              ),
+              subsButton("Math-3", () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => thirdSemester()));
+              }, Color.fromRGBO(21, 30, 39, 200)),
               const SizedBox(
                 height: 20,
               ),

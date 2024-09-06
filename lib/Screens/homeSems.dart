@@ -97,7 +97,7 @@ class _HomeSemsState extends State<HomeSems> {
                 const SizedBox(
                   height: 20,
                 ),
-                 const SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 Center(
